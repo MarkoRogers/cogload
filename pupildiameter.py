@@ -127,4 +127,4 @@ if __name__ == "__main__":
     video_path = 'pupilx.mp4'  # path to the input video file
     output_csv_path = 'pupil_data.csv'  # output path for the csv file
 
-    process_video(video_path, output_csv_path, frame_skip=3, scaling_factor=1, visualization=False)
+    process_video(video_path, output_csv_path, frame_skip=3, scaling_factor=1, visualization=True)
